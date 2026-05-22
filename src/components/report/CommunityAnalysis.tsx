@@ -46,7 +46,7 @@ export function CommunityAnalysis({ report }: { report: PropertyReport }) {
       {/* Suburb tag */}
       <div className="flex items-center gap-2 mb-4 px-3 py-2.5 bg-blue-light/5 border border-blue-light/12 rounded-lg">
         <MapPin size={13} className="text-blue-light flex-shrink-0" />
-        <span className="text-sm text-slate-300">{sp.suburbProfile ?? sp.overview}</span>
+        <span className="text-sm text-slate-300">{sp.overview}</span>
       </div>
 
       {/* Details grid */}
